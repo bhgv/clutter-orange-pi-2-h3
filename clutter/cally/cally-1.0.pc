@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+apiversion=1.0
+
+Name: Cally
+Description: Clutter Accessibility Implementation Library
+Version: 1.26.1
+Libs: -L${libdir} -lclutter-${apiversion}
+Cflags: -I${includedir}/clutter-${apiversion}
+Requires: atk clutter-1.0
