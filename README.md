@@ -9,6 +9,8 @@ $ make
 $ sudo make install
 ```
 
+good [tuto](http://www.modrana.org/pyclutter_tutorial/tutorial/html/index.html)
+
 
 Clutter
 =======
