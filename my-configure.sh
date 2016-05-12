@@ -10,6 +10,7 @@
 --enable-wayland-backend=no \
 --with-default-drivers=gles2 \
 --with-flavour=eglnative \
+--prefix=/usr \
 
 
 #--with-flavour=eglx \
